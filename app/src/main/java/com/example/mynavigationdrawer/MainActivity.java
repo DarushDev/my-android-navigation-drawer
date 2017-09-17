@@ -86,16 +86,17 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            return false;
         } else if (id == R.id.nav_gallery) {
-
+            return false;
         } else if (id == R.id.nav_slideshow) {
-
+            return false;
         } else if (id == R.id.nav_manage) {
-
+            return false;
         } else if (id == R.id.nav_share) {
-
+            return false;
         } else if (id == R.id.nav_send) {
-
+            return false;
         } else if (id == R.id.nav_settings){
             fragment = new SettingsFragment();
         } else {
